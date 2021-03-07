@@ -1,0 +1,16 @@
+server {
+
+    listen      80;
+
+    server_name 54.209.74.68;
+
+    location / {
+
+        root    /home/ubuntu/build;
+
+        index   index.html index.htm;
+
+    }
+
+}
+~ 
